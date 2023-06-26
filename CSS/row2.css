@@ -1,0 +1,24 @@
+.row2 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#row2-background-img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#row2-paragraph {
+    color: white;
+    position: absolute;
+    top: 320px;
+    left: 720px;
+}
+
+.row2-play-img-container {
+    position: absolute;
+    top: 200px;
+    left: 750px;
+}

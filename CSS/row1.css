@@ -1,0 +1,45 @@
+.row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.left-img {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10%;
+}
+
+.left-img img {
+  width: 200px;
+}
+
+.right-text {
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-text p {
+  width: 60%;
+}
+
+.right-text button {
+  background-color: white;
+  border: 1px solid #00e0d0;
+  width: 120px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #00e0d0;
+  border-radius: 3px;
+}
+
+.right-text button:hover {
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+}

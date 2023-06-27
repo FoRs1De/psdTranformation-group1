@@ -1,59 +1,72 @@
 .row4 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/design-assets/bgk-header.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 550px;
-    color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/design-assets/bgk-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px 0 40px 0;
+  color: white;
 }
 
 .row4-upper-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .row4-middle-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-bottom: 20px;
-    background-color: aqua;
-    height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 20px;
+  width: 60%;
+  height: 100px;
+  gap: 20px;
+
+  justify-content: center;
 }
 
 .grid-item {
-    background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .row4-grid-white-block {
-    background-color: white;
-    height: 200px;
-    width: 100px;
+  background-color: lightgrey;
+  width: 200px;
+  height: 200px;
 }
 
 .row4-bottom-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+  margin-bottom: 40px;
+}
+.row4-gridtext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 0 0 0;
 }
 
 .row4-bottom-text button {
-    background-color: transparent;
-    border: 1px solid #00e0d0;
-    width: 160px;
-    height: 40px;
-    font-size: 1em;
-    font-weight: bold;
-    color: #00e0d0;
-    border-radius: 3px;
+  background-color: transparent;
+  border: 1px solid #00e0d0;
+  width: 160px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #00e0d0;
+  border-radius: 3px;
+  margin-top: 20px;
 }
-

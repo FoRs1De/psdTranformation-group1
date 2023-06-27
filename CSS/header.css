@@ -1,13 +1,16 @@
 .tajam-text {
   font-family: 'Poppins', sans-serif;
-  font-size: 100;
-  font-weight: 100;
+  font-size: 30px;
+  font-weight: lighter;
+  text-decoration: none;
 }
+
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 2%;
+  font-style: normal;
 }
 
 .logo-container {
@@ -18,7 +21,7 @@ nav {
 .nav-items-container ul {
   list-style: none;
   padding: 0;
-  margin-right: 200px;
+  margin-right: 100px;
   justify-content: flex-end;
   align-items: center;
 }
@@ -26,11 +29,13 @@ nav {
 .nav-items-container ul li {
   display: inline-block;
   margin-right: 20px;
+  text-decoration: none;
 }
 
 nav ul li a {
   color: #ffffff;
   text-decoration: none;
+  font-style: normal;
 }
 
 h1 {
@@ -42,7 +47,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
+  width: 1600px;
   height: 670px;
 }
 

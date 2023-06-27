@@ -1,0 +1,59 @@
+.row4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/design-assets/bgk-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    color: white;
+}
+
+.row4-upper-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row4-middle-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 20px;
+    background-color: aqua;
+    height: 100px;
+}
+
+.grid-item {
+    background-color: blueviolet;
+}
+
+.row4-grid-white-block {
+    background-color: white;
+    height: 200px;
+    width: 100px;
+}
+
+.row4-bottom-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.row4-bottom-text button {
+    background-color: transparent;
+    border: 1px solid #00e0d0;
+    width: 160px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #00e0d0;
+    border-radius: 3px;
+}
+

@@ -1,56 +1,61 @@
 .row5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin: 80px 0 80px 0;
+  flex-wrap: wrap;
 }
 
 .row5-left-container {
-    background-color: aquamarine;
-    height: 300px;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 400px;
 }
 
-.row5-left-container p {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.row5-left-container form {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding-right: 40px;
 }
 
-.row5-left-container-container {
-    background-color: blueviolet;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: center;
+.row5-left-container form input {
+  padding: 15px;
+  font-size: 1em;
 }
 
-.row5-left-container-container form{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+.row5-left-container form button {
+  width: 50%;
+  background-color: white;
+  border: 1px solid #00e0d0;
+  width: 120px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #00e0d0;
+  border-radius: 3px;
 }
 
-.row5-left-container-container form input{
-    margin-bottom: 10px;
+.row5-left-container form button:hover {
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
 }
 
 .row5-right-container {
-    background-color: bisque;
-    width: 30%;
-    height: 300px;
-    width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
 }
 
-.row5-right-container-container {
-    display: flex;
-    flex-direction: column;
+.right-container-img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
-.row5-right-container-img-container{
-    display: grid;
+.row5-right-container img {
+  width: 150px;
 }

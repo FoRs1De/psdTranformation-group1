@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  margin: 40px 0 40px;
 }
 
 .left-img {

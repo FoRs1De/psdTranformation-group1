@@ -1,0 +1,80 @@
+footer {
+    background-image: url('/design-assets/bgk-footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+  }
+
+  .container {
+    display: flex;
+    color: #ffffff;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  .bottom-left ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .bottom-left li {
+    margin-bottom: 10px;
+  }
+  
+  .bottom-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .transparent-button {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .transparent-button i {
+    margin-right: 5px;
+  }
+  
+  .transparent-button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  p.copyright {
+    font-size: 12px;
+    text-align: right;
+  }
+  
+  .subscribe-button {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+  }

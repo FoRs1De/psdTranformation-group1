@@ -1,5 +1,5 @@
 .tajam-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto light', sans-serif;
   font-size: 30px;
   font-weight: lighter;
   text-decoration: none;
@@ -89,7 +89,8 @@ body {
 }
 
 p {
-  max-width: 1000px; /* Adjust the value as per your preference */
+  max-width: 1000px;
   margin: 0 auto; /* Center the element */
-  font-weight: 200;
+  font-weight: 100;
+
 }

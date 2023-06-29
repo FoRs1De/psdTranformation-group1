@@ -110,7 +110,8 @@
   .row4-middle-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 60px;
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
   }
 
   .grid-item {

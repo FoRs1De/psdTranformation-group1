@@ -15,11 +15,23 @@
 
 .row3-grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 80%;
-  margin-top: 40px;
-  gap: 1em;
-  align-items: center;
+  grid-template-columns: repeat(6, 2fr);
+  grid-auto-rows: auto;
+  grid-gap: 0;
+}
+
+.divider-vertical {
+  background-color: rgb(197, 197, 197);
+  width: 1px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.divider-horizontal {
+  background-color: rgb(195, 195, 195);
+  height: 1px;
+  width: 1000%;
+  margin: 10px 0;
 }
 
 .row3-grid-item {

@@ -90,9 +90,7 @@ footer {
   margin-top: 40px;
 }
 
-
 @media screen and (max-width: 1000px) {
-
   footer {
     background-image: url('/design-assets/bgk-footer.png');
     background-size: cover;
@@ -102,14 +100,14 @@ footer {
     height: 400px;
     padding-bottom: 460px;
   }
-  
+
   .wraper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
+
   .container {
     width: 100%;
     display: flex;
@@ -119,18 +117,18 @@ footer {
     color: #ffffff;
     flex-wrap: wrap;
   }
-  
+
   .column {
     display: flex;
     flex-direction: column;
     padding: 20px;
     width: 300px;
   }
-  
+
   .bottom-right {
     display: flex;
   }
-  
+
   .bottom-right input {
     font-size: 1em;
     padding: 0.8em;
@@ -138,21 +136,21 @@ footer {
     border: 1px solid lightgray;
     color: #ffffff;
   }
-  
+
   .bottom-right input::placeholder {
     color: lightgray;
   }
-  
+
   .bottom-right button {
     width: 80px;
     height: 50px;
     padding: 0;
     margin-left: 10px;
     background-color: rgba(211, 211, 211, 0.5);
-  
+
     border: 0;
   }
-  
+
   .bottom {
     display: flex;
     flex-direction: column;
@@ -161,29 +159,28 @@ footer {
     justify-content: center;
     width: 500px;
   }
-  
+
   .bottom > ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: end;
-    width: 40%;
+    width: 60%;
     padding: 0;
   }
-  
+
   .bottom p {
     padding: 0;
     margin-right: 110px;
     color: #ffffff;
   }
-  
+
   .bottom a {
     text-decoration: none;
     color: #ffffff;
   }
-  
+
   .social {
     margin-top: 40px;
   }
-
 }

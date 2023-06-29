@@ -20,3 +20,11 @@ body {
 p {
   color: gray;
 }
+
+hr {
+  width: 60px;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+  margin-top: 20px;
+}

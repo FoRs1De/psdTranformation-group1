@@ -55,9 +55,6 @@
   border-right: 1px solid lightgray;
 }
 
-.grid-item6 {
-}
-
 @media screen and (max-width: 1150px) {
   .row3-grid-container {
     display: grid;
@@ -99,8 +96,5 @@
 
   .grid-item5 {
     border-right: 0;
-  }
-
-  .grid-item6 {
   }
 }

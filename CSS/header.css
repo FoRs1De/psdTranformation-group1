@@ -12,11 +12,12 @@ nav {
   padding: 2%;
   font-style: normal;
   position: fixed;
-  background-image: url('/design-assets/bgk-header.png');
   width: 100%;
-  background-position: top;
+  background-image: url('/nav.png');
+  background-position: bottom;
   background-repeat: no-repeat;
   background-color: transparent;
+  background-size: cover;
 }
 
 .logo-container {
@@ -51,13 +52,14 @@ h1 {
 header {
   width: 100%;
   padding-bottom: 60px;
+  background-image: url('/design-assets/bgk-header.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: cover;
 }
 
 .header-text {
-  background-image: url('/design-assets/bgk-header.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
   text-align: center;
   padding-top: 200px;
   padding-left: 20px;
